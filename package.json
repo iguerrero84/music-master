@@ -1,0 +1,31 @@
+{
+  "name": "music-master",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html",
+    "start": "live-server dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iguerrero84/music-master.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iguerrero84/music-master/issues"
+  },
+  "homepage": "https://github.com/iguerrero84/music-master#readme",
+  "dependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/plugin-proposal-class-properties": "^7.2.3",
+    "live-server": "^1.2.1",
+    "parcel-bundler": "^1.12.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {}
+}
